@@ -5,7 +5,7 @@ import CalcButton from './components/CalcButton/CalcButton';
 import Calc from './components/Calc/Calc';
 
 function App() {
-
+  console.log('rendered App')
   return (
     <div className="App">
       <Calc />

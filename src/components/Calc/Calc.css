@@ -2,6 +2,9 @@
   padding: 30px;
   border: 3px solid black;
   border-radius: 20px;
+  background: pink;
+  display: flex;
+  min-width:max-content;
 }
 .calc__buttons {
   width:208px;
@@ -17,7 +20,17 @@
   border-radius: 10px;
   text-align: right;
   padding: 5px 10px;
-  font-size: 20px;
-  background: rgba(219, 0, 110, 0.726);
+  font-size: 27px;
+  background: rgb(255, 160, 176);
   color: white;
+  line-height: 30px;
+  margin: 0 0 15px 0;
+}
+.calc__result {
+  font-size: 17px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.699);
+}
+.calc__display, .calc__result {
+  user-select: text;
 }

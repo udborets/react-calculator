@@ -3,7 +3,7 @@
   width: 50px;
   height: 50px;
   border-radius: 10px;
-  background: rgb(219, 0, 110);
+  background: rgb(255, 121, 143);
   transition-duration: 300ms;
   transition-property: background;
   color: white;
@@ -16,11 +16,11 @@
 }
 
 .calc-button:hover {
-  background: rgb(255, 0, 128);
+  background: rgb(248, 92, 118);
 
 }
 
 .calc-button:active {
-  background: rgb(167, 0, 83);
+  background: rgb(255, 66, 97);
 
 }

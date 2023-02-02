@@ -4,13 +4,12 @@ import './CalcButton.css'
 interface CalcButtonProps {
   fn: () => void,
   text: string,
-  isLong: boolean
 }
 
-const CalcButton = ({ fn, text, isLong }: CalcButtonProps) => {
+const CalcButton = ({ fn, text}: CalcButtonProps) => {
   return (
     <button
-      className={isLong ? 'calc-button calc-button-long' : 'calc-button'}
+      className='calc-button'
       onClick={fn}
     >
       {text}
